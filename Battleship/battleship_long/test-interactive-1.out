@@ -1,0 +1,914 @@
+Standard or Tetris board?   
+Welcome to Battleship!
+
+This is the target side of the game
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A A A A A . |
+4 | . . . . . . . . . . |
+3 | . . . . . . . . . D |
+2 | . C C C . . . . . D |
+1 | . . . . . . . . . . |
+0 | . . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+CCC       Cruiser
+AAAAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A A A A A . |
+4 | . . . . . . . . . . |
+3 | . . . . . . . . . D |
+2 | . C C C . . . . . D |
+1 | . . . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+CCC       Cruiser
+AAAAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A A A A A . |
+4 | . . . . . . . . . . |
+3 | . . . . . . . . . D |
+2 | . * C C . . . . . D |
+1 | . . . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+AAAAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A A A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | . * C C . . . . . D |
+1 | . . . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+AAAAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A A A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | . * C C . . . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+AAAAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | . * C C . . . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+A*AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o * C C . . . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+A*AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o * C C . o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+A*AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o * C C o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+*CC       Cruiser
+A*AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o * * C o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+**C       Cruiser
+A*AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . A * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+A*AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Sunk (Cruiser)
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . . * * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+**AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * A A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+**AAA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . . D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . . . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . . . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S S S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . o . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+SSS       Submarine
+DD        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . B . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . o . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBBB      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . D |
+1 | . o . . . . . . o . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+DD        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . * |
+1 | . o . . . . . . o . |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+*D        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A . |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . * |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+*D        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A o |
+4 | . . o . . . . . . . |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . * |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+*D        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o D |
+2 | o X X X o o . . . * |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+*D        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * A A o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+***AA     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Sunk (Destroyer)
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o * * * * A o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+****A     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . B . . . . . . . . |
+5 | . B . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+BBB*      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Sunk (Aircraft Carrier)
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . * . . . . . . . . |
+5 | . B . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+B*B*      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . * . . . S * S . . |
+7 | . B . . . . . . . . |
+6 | . * . . . . . . . . |
+5 | . * . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+**B*      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . . . . . |
+8 | . X . . . S * S . . |
+7 | . X . . . . . . . . |
+6 | . X . . . . . . . . |
+5 | . X . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+****      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Sunk (Battleship)
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . o . . . |
+8 | . X . . . S * S . . |
+7 | . X . . . . . . . . |
+6 | . X . . . . . . . . |
+5 | . X . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+****      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S*S       Submarine
+**        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . o . . . |
+8 | . X . . . S * * . . |
+7 | . X . . . . . . . . |
+6 | . X . . . . . . . . |
+5 | . X . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+****      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S**       Submarine
+**        Destroyer
+
+RESULT: Hit
+
+What is the next move? 
+
+
+
+  +---------------------+
+9 | . . . . . . o . . . |
+8 | . X . . . S * * o . |
+7 | . X . . . . . . . . |
+6 | . X . . . . . . . . |
+5 | . X . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
+
+Ship list:
+----------
+****      Battleship
+***       Cruiser
+*****     Aircraft Carrier
+S**       Submarine
+**        Destroyer
+
+RESULT: Miss
+
+What is the next move? 
+
+
+
+ *** GAME OVER ***
+
+  +---------------------+
+9 | . . . . . . o . . . |
+8 | . X . . . X X X o . |
+7 | . X . . . . . . . . |
+6 | . X . . . . . . . . |
+5 | . X . o X X X X X o |
+4 | . . o . . . . . . o |
+3 | . o . . . . . . o X |
+2 | o X X X o o . . . X |
+1 | . o . . . . . . o o |
+0 | o . . . . . . . . . |
+  +---------------------+
+    0 1 2 3 4 5 6 7 8 9
